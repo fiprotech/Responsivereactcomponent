@@ -1,9 +1,9 @@
-import { UserProfileForm } from './components/UserProfileForm';
+import { CraveDashLanding } from './components/CraveDashLanding';
 
 export default function App() {
   return (
-    <div className="size-full flex items-center justify-center bg-gray-100">
-      <UserProfileForm />
+    <div className="size-full">
+      <CraveDashLanding />
     </div>
   );
 }
